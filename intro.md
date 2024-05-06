@@ -1,4 +1,4 @@
-# Welcome to Collection of notes on {ml-nn-zero2hero}
+# Collection of notes on {ml-nn-zero2hero}
 
 Welcome to this repository of Collection of notes on {ml.nn-zero2hero}. This repository includes notes and learnings following the [nn_zero_to_hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) guide by Andrej Karpathy and the open-source notebooks available on [Hands-On Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2](https://github.com/ageron/handson-ml3) by Aurelien Geron. Personally, I found these to be two of the best resources available on this subject, purely from an applied learning stand point. I should also look into getting a better theoretical background on the subject as well. 
 
@@ -58,5 +58,3 @@ The goals of these notebooks are to:
 
 ## Section 10
 
-```{tableofcontents}
-```
