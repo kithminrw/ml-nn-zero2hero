@@ -1,4 +1,3 @@
-# Book development
 jupyter-book
-ghp-import
-sphinx
+matplotlib
+numpy

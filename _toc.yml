@@ -1,46 +1,9 @@
 # Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro.md
+root: intro
 chapters:
-- file: notebooks/01/01.md
-  sections:
-  - file: notebooks/01/NB_1_1.ipynb
-
-- file: notebooks/02/02.md
-  sections:
-  - file: notebooks/02/NB_2_1.ipynb
-  
-- file: notebooks/03/03.md
-  sections:
-  - file: notebooks/03/NB_3_1.ipynb
-
-- file: notebooks/04/04.md
-  sections:
-  - file: notebooks/04/NB_4_1.ipynb
-
-- file: notebooks/05/05.md
-  sections: 
-  - file: notebooks/05/NB_5_1.ipynb
-
-- file: notebooks/06/06.md
-  sections:
-  - file: notebooks/06/NB_6_1.ipynb
-
-- file: notebooks/07/07.md
-  sections:
-  - file: notebooks/07/NB_7_1.ipynb
-
-- file: notebooks/08/08.md
-  sections:
-  - file: notebooks/08/NB_8_1.ipynb
-
-- file: notebooks/09/09.md
-  sections:
-  - file: notebooks/09/NB_9_1.ipynb
-
-- file: notebooks/10/10.md
-  sections:
-  - file: notebooks/10/NB_10_1.ipynb
-
-- file: genindex.md 
+- file: markdown
+- file: notebooks
+- file: markdown-notebooks
