@@ -9,9 +9,9 @@ Other resources include (but not limited to),
 
 The goals of these notebooks are to:
 
-* Provide a foundation for hands-on learning of mathematical optimization,
-* Demonstrate the tools and concepts of optimization with practical examples,
-* Help readers to develop the practical skills needed to build models and solving problem using state-of-the-art modeling languages and solvers.
+* Provide a foundation for hands-on learning of mathematical optimization
+* Demonstrate the tools and concepts of optimization with practical examples
+* Help readers to develop the practical skills needed to build models and solving problem using state-of-the-art modeling languages and solvers
 
 ### Pre-requisites
 
