@@ -9,9 +9,9 @@ Other resources include (but not limited to),
 
 The goals of these notebooks are to:
 
-* Provide a foundation for hands-on learning of mathematical optimization
-* Demonstrate the tools and concepts of optimization with practical examples
-* Help readers to develop the practical skills needed to build models and solving problem using state-of-the-art modeling languages and solvers
+* Grasp the foundations for hands-on machine learning
+* Demonstrate the tools and concepts using beautiful publication-quality work
+* Help readers to easily navigate the learning experience with a good compilation on notes on the subject
 
 ### Pre-requisites
 
@@ -26,35 +26,3 @@ The goals of these notebooks are to:
 - pandas
 - tensorflow2
 - keras
-
-## Section 1 - Exploring for Machine Learning
-
-### Notebook 1.1 - Learning about the ML landscape
-### Notebook 1.2 - End-to-end ML project
-
-## Section 2
-
-
-## Section 3
-
-
-## Section 4
-
-
-## Section 5
-
-
-## Section 6
-
-
-## Section 7
-
-
-## Section 8
-
-
-## Section 9
-
-
-## Section 10
-
