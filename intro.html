@@ -57,6 +57,8 @@
     <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'intro';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -214,6 +216,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/ageron/handson-ml3">github:handson-ml</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/NVDLI/LDL/">github:learning-deep-learning</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Neural Networks</span></p>
 <ul class="nav bd-sidenav">
@@ -440,7 +443,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="ml-nn-zero2hero">
 <h1>{ml-nn-zero2hero}<a class="headerlink" href="#ml-nn-zero2hero" title="Link to this heading">#</a></h1>
-<div class="warning admonition">
+<div class="important admonition">
 <p class="admonition-title">Disclaimer</p>
 <p>All the rights of these codes and resources belong to their original authors. I am compiling a collection for self-learning purposes and to build tools by myself using the knowledge.</p>
 </div>
@@ -448,7 +451,9 @@ document.write(`
 <p>Other resources include (but not limited to),</p>
 <ul class="simple">
 <li><p>The <a class="reference external" href="https://deeplearning.ai/">DeepLearning.ai</a> courses on the Machine Learning / Deep Learning Specialization by Andrew Ng</p></li>
+<li><p>The <a class="reference external" href="https://www.deeplearningbook.org/">MIT Deep Learning book</a> by Ian Goodfellow and Yoshua Bengio and Aaron Courville</p></li>
 <li><p>Online book on <a class="reference external" href="https://mbmlbook.com/">Model-based Machine Learning</a> by John Winn</p></li>
+<li><p>Nvidia’s <a class="reference external" href="https://www.nvidia.com/en-us/training/books/">Learning Deep Learning</a> by Magnus Ekman</p></li>
 <li><p><a class="reference external" href="https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf">Pattern Recognition and Machine Learning</a> by Christopher Bishop</p></li>
 <li><p><a class="reference external" href="https://github.com/mobook/MO-book">Hands-On Mathematical Optimization with Python</a> by The MO Book Group</p></li>
 </ul>
@@ -461,6 +466,10 @@ document.write(`
 <li><p>Help readers to easily navigate the learning experience with a good compilation on notes on the subject</p></li>
 <li><p>Demonstrate the use of SOTA tools and concepts for documenting beautiful publication-quality work</p></li>
 </ul>
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Personal Goal</p>
+<p>I hope to publish a paper at <a class="reference external" href="https://nips.cc/">NuerIPS 2025</a></p>
 </div>
 <section id="pre-requisites">
 <h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Link to this heading">#</a></h2>
@@ -476,6 +485,7 @@ document.write(`
 </ul>
 <p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left reference internal" href="notebooks/00/00.html"><span class="doc">
 Get started</span></a></p>
+<p><a class="reference external" href="https://nips.cc/Conferences/2024/CallForPapers">https://nips.cc/Conferences/2024/CallForPapers</a></p>
 </section>
 <div class="toctree-wrapper compound">
 </div>
