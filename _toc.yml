@@ -41,7 +41,9 @@ parts:
       - file: notebooks/10/NB_10_1.ipynb
     - url: https://github.com/ageron/handson-ml3
       title: github:handson-ml  
-
+    - url: https://github.com/NVDLI/LDL/
+      title: github:learning-deep-learning 
+      
   - caption: Neural Networks
     chapters:
     - file: notebooks/04/04.md
