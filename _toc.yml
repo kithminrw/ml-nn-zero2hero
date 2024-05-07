@@ -1,7 +1,7 @@
 # Table of contents
 
 format: jb-book
-root: intro.md
+root: intro
 parts:
   - caption: Machine Learning
     chapters:
@@ -9,8 +9,6 @@ parts:
       sections:
       - file: notebooks/01/NB_1_1.ipynb
       - file: notebooks/01/NB_1_2.ipynb
-      - url: https://jupyterbook.org/en/stable/start/your-first-book.html
-        title: jupyter-books
 
     - file: notebooks/02/02.md
       sections:
