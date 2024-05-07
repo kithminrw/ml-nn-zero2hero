@@ -2,9 +2,7 @@
 
 :::{admonition} Disclaimer
 :class: warning
- All the rights of these codes and resources belong to their original authors.
- 
- I am compiling a collection for self-learning purposes and to build tools by myself using the knowledge.
+ All the rights of these codes and resources belong to their original authors. I am compiling a collection for self-learning purposes and to build tools by myself using the knowledge.
 :::
 
 Welcome to **Collection of notes on {ml.nn-zero2hero}**. This repository includes notes and learnings following the Youtube Playlist on [nn_zero_to_hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) guide by Andrej Karpathy and the open-source notebooks available from the book on [Hands-On Machine Learning and Deep Learning](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) by Aurelien Geron. Personally, I found these to be two of the best resources available on this subject, purely from an applied learning stand point. For great visual understanding, the videos on the Youtube Channel [3Blue1Brown](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) are quite helpful as well.
@@ -40,10 +38,3 @@ The goals of this collection of notebooks are to:
 
 Get started
 ```
-#### Packages
-- numpy
-- matplotlib
-- pandas
-- scikit-learn
-- tensorflow2
-- keras
