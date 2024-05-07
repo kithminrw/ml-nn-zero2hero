@@ -30,7 +30,7 @@ The goals of this collection of notebooks are to:
     - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong
 - Jupyter – These notebooks are based on Jupyter. You can run these notebooks in just one click using Google Colaboratory
 
-```{button-ref} notebooks/00/00.md
+```{button-ref} notebooks/00/00
 :ref-type: doc
 :color: primary
 :class: sd-rounded-pill float-left
