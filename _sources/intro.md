@@ -1,6 +1,4 @@
----
-title: {ml-nn-zero2hero}
----
+# {ml-nn-zero2hero}
 
 :::{admonition} Disclaimer
 :class: warning
@@ -16,15 +14,6 @@ Other resources include (but not limited to),
 - Online book on [Model-based Machine Learning](https://mbmlbook.com/) by John Winn
 - [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) by Christopher Bishop
 - [Hands-On Mathematical Optimization with Python](https://github.com/mobook/MO-book) by The MO Book Group
-
-```{button-ref} start/your-first-book
-:ref-type: doc
-:color: primary
-:class: sd-rounded-pill float-left
-
-
-Get started
-```
 
 ```{note}
 The goals of this collection of notebooks are to:
@@ -43,6 +32,14 @@ The goals of this collection of notebooks are to:
     - [Mathematics for Machine Learning](https://mml-book.github.io/book/mml-book.pdf) Marc Peter Deisenroth, A. Aldo Faisal and Cheng Soon Ong
 - Jupyter – These notebooks are based on Jupyter. You can run these notebooks in just one click using Google Colaboratory
 
+```{button-ref} notebooks/00/00.md
+:ref-type: doc
+:color: primary
+:class: sd-rounded-pill float-left
+
+
+Get started
+```
 #### Packages
 - numpy
 - matplotlib
@@ -50,6 +47,3 @@ The goals of this collection of notebooks are to:
 - scikit-learn
 - tensorflow2
 - keras
-
-```{tableofcontents}
-```
