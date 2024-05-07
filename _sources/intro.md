@@ -24,7 +24,7 @@ Other resources include (but not limited to),
 
 :::{admonition} Personal Goal
 :class: tip 
-I hope to publish a paper at [NuerIPS 2025](https://nips.cc/)
+I want to publish my work at [NuerIPS 2025](https://nips.cc/) :)
 :::
 
 ### Pre-requisites
