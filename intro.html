@@ -406,7 +406,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -422,6 +424,14 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-requisites">Pre-requisites</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -457,11 +467,14 @@ document.write(`
 <li><p>Demonstrate the use of SOTA tools and concepts for documenting beautiful publication-quality work</p></li>
 </ul>
 </div>
-<p>&lt;:::{admonition} Personal Goal
-:class: tip
-I have hopes of getting a paper outlining my work submitted for <a class="reference external" href="https://nips.cc/">NuerIPS 2025</a>, so it is my personal motivation for doing this as well :)</p>
-<div class="&gt; docutils">
-<h3 class="rubric" id="pre-requisites">Pre-requisites</h3>
+<!-->
+<div class="tip admonition">
+<p class="admonition-title">Personal Goal</p>
+<p>I have hopes of getting a paper outlining my work submitted for <a class="reference external" href="https://nips.cc/">NuerIPS 2025</a>, so it is my personal motivation for doing this as well :)</p>
+</div>
+<p>&lt;/–&gt;</p>
+<section id="pre-requisites">
+<h2>Pre-requisites<a class="headerlink" href="#pre-requisites" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Python 3.9 or above (preferably on VSCode)</p></li>
 <li><p>Scientific Python libraries, in particular NumPy, matplotlib and pandas</p></li>
@@ -474,7 +487,7 @@ I have hopes of getting a paper outlining my work submitted for <a class="refere
 </ul>
 <p><a class="sd-sphinx-override sd-btn sd-text-wrap sd-btn-primary sd-rounded-pill float-left reference internal" href="notebooks/00/00.html"><span class="doc">
 Get started</span></a></p>
-</div>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -533,7 +546,20 @@ Get started</span></a></p>
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-requisites">Pre-requisites</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

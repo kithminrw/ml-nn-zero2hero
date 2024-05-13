@@ -22,10 +22,12 @@ Other resources include (but not limited to),
 * Demonstrate the use of SOTA tools and concepts for documenting beautiful publication-quality work
 ```
 
-<:::{admonition} Personal Goal
+<!-->
+:::{admonition} Personal Goal
 :class: tip 
 I have hopes of getting a paper outlining my work submitted for [NuerIPS 2025](https://nips.cc/), so it is my personal motivation for doing this as well :)
-:::>
+:::
+</-->
 
 ### Pre-requisites
 
