@@ -1,0 +1,102 @@
+2024-05-15 08:29:13,159 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-15 08:29:13,159 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Configure stats pid to 49986
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from /Users/kithminrw/.config/wandb/settings
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/settings
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_init.py:_log_setup():520] Logging user logs to /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_082913-t0f900hl/logs/debug.log
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_082913-t0f900hl/logs/debug-internal.log
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_init.py:init():560] calling init triggers
+2024-05-15 08:29:13,160 INFO    MainThread:49986 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-05-15 08:29:13,161 INFO    MainThread:49986 [wandb_init.py:init():610] starting backend
+2024-05-15 08:29:13,161 INFO    MainThread:49986 [wandb_init.py:init():614] setting up manager
+2024-05-15 08:29:13,167 INFO    MainThread:49986 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-05-15 08:29:13,169 INFO    MainThread:49986 [wandb_init.py:init():622] backend started and connected
+2024-05-15 08:29:13,195 INFO    MainThread:49986 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-15 08:29:13,195 INFO    MainThread:49986 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-15 08:29:13,195 INFO    MainThread:49986 [wandb_init.py:init():711] updated telemetry
+2024-05-15 08:29:13,234 INFO    MainThread:49986 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-15 08:30:43,913 ERROR   MainThread:49986 [wandb_init.py:init():770] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-05-15 08:30:43,916 ERROR   MainThread:49986 [wandb_init.py:init():1174] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1164, in init
+    return wi.init()
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-05-15 09:05:19,926 INFO    MainThread:49986 [wandb_settings.py:_apply_login():1895] Applying login settings: {}
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Configure stats pid to 49986
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from /Users/kithminrw/.config/wandb/settings
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/settings
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-15 09:05:19,975 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-15 09:05:19,976 INFO    MainThread:49986 [wandb_init.py:_log_setup():520] Logging user logs to /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_090519-kr1c08nf/logs/debug.log
+2024-05-15 09:05:19,976 INFO    MainThread:49986 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_090519-kr1c08nf/logs/debug-internal.log
+2024-05-15 09:05:19,976 INFO    MainThread:49986 [wandb_init.py:init():560] calling init triggers
+2024-05-15 09:05:19,976 INFO    MainThread:49986 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-05-15 09:05:19,976 INFO    MainThread:49986 [wandb_init.py:init():610] starting backend
+2024-05-15 09:05:19,977 INFO    MainThread:49986 [wandb_init.py:init():614] setting up manager
+2024-05-15 09:05:19,991 INFO    MainThread:49986 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-05-15 09:05:19,994 INFO    MainThread:49986 [wandb_init.py:init():622] backend started and connected
+2024-05-15 09:05:20,130 INFO    MainThread:49986 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-15 09:05:20,131 INFO    MainThread:49986 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-15 09:05:20,131 INFO    MainThread:49986 [wandb_init.py:init():711] updated telemetry
+2024-05-15 09:05:20,230 INFO    MainThread:49986 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-15 09:06:51,143 ERROR   MainThread:49986 [wandb_init.py:init():770] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-05-15 09:06:51,150 ERROR   MainThread:49986 [wandb_init.py:init():1174] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1164, in init
+    return wi.init()
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 776, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-05-15 09:08:02,129 INFO    MainThread:49986 [wandb_settings.py:_apply_login():1895] Applying login settings: {}
+2024-05-15 09:08:02,150 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Configure stats pid to 49986
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from /Users/kithminrw/.config/wandb/settings
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/settings
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-15 09:08:02,151 INFO    MainThread:49986 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-15 09:08:02,152 INFO    MainThread:49986 [wandb_init.py:_log_setup():520] Logging user logs to /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_090802-cv42wh35/logs/debug.log
+2024-05-15 09:08:02,152 INFO    MainThread:49986 [wandb_init.py:_log_setup():521] Logging internal logs to /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_090802-cv42wh35/logs/debug-internal.log
+2024-05-15 09:08:02,152 INFO    MainThread:49986 [wandb_init.py:init():560] calling init triggers
+2024-05-15 09:08:02,152 INFO    MainThread:49986 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.02, 'architecture': 'CNN', 'dataset': 'CIFAR-100', 'epochs': 10}
+2024-05-15 09:08:02,152 INFO    MainThread:49986 [wandb_init.py:init():610] starting backend
+2024-05-15 09:08:02,152 INFO    MainThread:49986 [wandb_init.py:init():614] setting up manager
+2024-05-15 09:08:02,161 INFO    MainThread:49986 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-05-15 09:08:02,162 INFO    MainThread:49986 [wandb_init.py:init():622] backend started and connected
+2024-05-15 09:08:02,191 INFO    MainThread:49986 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-15 09:08:02,192 INFO    MainThread:49986 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-15 09:08:02,192 INFO    MainThread:49986 [wandb_init.py:init():711] updated telemetry
+2024-05-15 09:08:02,267 INFO    MainThread:49986 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-15 09:08:11,312 WARNING MainThread:49986 [wandb_init.py:init():1168] interrupted
+Traceback (most recent call last):
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1164, in init
+    return wi.init()
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 747, in init
+    result = run_init_handle.wait(
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/threading.py", line 574, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/kithminrw/opt/anaconda3/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

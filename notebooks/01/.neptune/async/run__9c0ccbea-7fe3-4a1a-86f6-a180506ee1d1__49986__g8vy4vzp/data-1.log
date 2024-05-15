@@ -1,0 +1,30 @@
+{"obj": {"type": "AssignString", "path": ["sys", "name"], "value": "lotus-alligator"}, "version": 1, "at": 1715787747.029621}
+{"obj": {"type": "AssignString", "path": ["sys", "description"], "value": ""}, "version": 2, "at": 1715787747.03154}
+{"obj": {"type": "AssignString", "path": ["monitoring", "6243011b", "hostname"], "value": "Kithmins-Air"}, "version": 3, "at": 1715787747.031754}
+{"obj": {"type": "AssignString", "path": ["sys", "hostname"], "value": "Kithmins-Air"}, "version": 4, "at": 1715787747.0321012}
+{"obj": {"type": "AssignString", "path": ["monitoring", "6243011b", "pid"], "value": "49986"}, "version": 5, "at": 1715787747.032264}
+{"obj": {"type": "AssignString", "path": ["monitoring", "6243011b", "tid"], "value": "8632042048"}, "version": 6, "at": 1715787747.03245}
+{"obj": {"type": "AddStrings", "path": ["sys", "tags"], "values": ["script", "quickstart"]}, "version": 7, "at": 1715787747.0331159}
+{"obj": {"type": "AssignBool", "path": ["sys", "failed"], "value": false}, "version": 8, "at": 1715787747.033248}
+{"obj": {"type": "AssignFloat", "path": ["seed"], "value": 0.42}, "version": 9, "at": 1715787747.050401}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": -0.42493593934832596, "step": null, "ts": 1715787747.0514822}]}, "version": 10, "at": 1715787747.05157}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 1.8784775677773253, "step": null, "ts": 1715787747.05213}]}, "version": 11, "at": 1715787747.0521548}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.3186729742910698, "step": null, "ts": 1715787747.0553558}]}, "version": 12, "at": 1715787747.055396}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.7546994354907539, "step": null, "ts": 1715787747.0556512}]}, "version": 13, "at": 1715787747.0556722}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.4937102134703386, "step": null, "ts": 1715787747.055885}]}, "version": 14, "at": 1715787747.055902}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.6719625396380008, "step": null, "ts": 1715787747.056215}]}, "version": 15, "at": 1715787747.0563068}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.6741092025559305, "step": null, "ts": 1715787747.056801}]}, "version": 16, "at": 1715787747.0568871}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.5013724896217459, "step": null, "ts": 1715787747.0570822}]}, "version": 17, "at": 1715787747.0571158}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.7590569610974145, "step": null, "ts": 1715787747.0573142}]}, "version": 18, "at": 1715787747.057333}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.3963717053811546, "step": null, "ts": 1715787747.057408}]}, "version": 19, "at": 1715787747.057423}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.6987935341407319, "step": null, "ts": 1715787747.057493}]}, "version": 20, "at": 1715787747.057507}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.3268348677310047, "step": null, "ts": 1715787747.057635}]}, "version": 21, "at": 1715787747.057654}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.71997414841864, "step": null, "ts": 1715787747.057729}]}, "version": 22, "at": 1715787747.0577438}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.32178036393956, "step": null, "ts": 1715787747.057806}]}, "version": 23, "at": 1715787747.057819}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.7156467124002911, "step": null, "ts": 1715787747.057916}]}, "version": 24, "at": 1715787747.057929}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.18268291572198497, "step": null, "ts": 1715787747.058005}]}, "version": 25, "at": 1715787747.058018}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.7421475908802186, "step": null, "ts": 1715787747.058079}]}, "version": 26, "at": 1715787747.058092}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.21055456315582682, "step": null, "ts": 1715787747.058149}]}, "version": 27, "at": 1715787747.058162}
+{"obj": {"type": "LogFloats", "path": ["accuracy"], "values": [{"value": 0.7739719089797974, "step": null, "ts": 1715787747.0582201}]}, "version": 28, "at": 1715787747.058232}
+{"obj": {"type": "LogFloats", "path": ["loss"], "values": [{"value": 0.2180960980685137, "step": null, "ts": 1715787747.058421}]}, "version": 29, "at": 1715787747.05844}
+{"obj": {"type": "UploadFile", "path": ["single_image"], "ext": "png", "file_path": "/Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/Lenna_test_image.png", "tmp_file_name": null, "clean_after_upload": false}, "version": 30, "at": 1715787747.059581}

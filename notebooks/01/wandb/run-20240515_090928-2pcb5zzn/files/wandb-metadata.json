@@ -1,0 +1,44 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2024-05-15T16:09:28.962105",
+    "startedAt": "2024-05-15T16:09:28.330034",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/kithminrw/ml-nn-zero2hero.git",
+        "commit": "1a895d0a856a83c7add93d6dbb38cfff95db1816"
+    },
+    "email": "kithminrw@gmail.com",
+    "root": "/Users/kithminrw/Documents/GitHub/ml-nn-zero2hero",
+    "host": "Kithmins-Air",
+    "username": "kithminrw",
+    "executable": "/Users/kithminrw/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 228.27386474609375,
+            "used": 213.93042373657227
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

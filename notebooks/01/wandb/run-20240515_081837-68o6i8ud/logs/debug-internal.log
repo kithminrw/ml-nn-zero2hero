@@ -1,0 +1,207 @@
+2024-05-15 08:18:37,855 INFO    StreamThr :50009 [internal.py:wandb_internal():85] W&B internal server running at pid: 50009, started at: 2024-05-15 08:18:37.853112
+2024-05-15 08:18:37,857 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: status
+2024-05-15 08:18:37,881 INFO    WriterThread:50009 [datastore.py:open_for_write():87] open: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/run-68o6i8ud.wandb
+2024-05-15 08:18:37,882 DEBUG   SenderThread:50009 [sender.py:send():378] send: header
+2024-05-15 08:18:37,936 DEBUG   SenderThread:50009 [sender.py:send():378] send: run
+2024-05-15 08:18:38,185 INFO    SenderThread:50009 [dir_watcher.py:__init__():211] watching files in: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files
+2024-05-15 08:18:38,185 INFO    SenderThread:50009 [sender.py:_start_run_threads():1123] run started: 68o6i8ud with start time 1715786317.857439
+2024-05-15 08:18:38,196 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: check_version
+2024-05-15 08:18:38,196 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: check_version
+2024-05-15 08:18:38,344 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: run_start
+2024-05-15 08:18:38,362 DEBUG   HandlerThread:50009 [system_info.py:__init__():26] System info init
+2024-05-15 08:18:38,362 DEBUG   HandlerThread:50009 [system_info.py:__init__():41] System info init done
+2024-05-15 08:18:38,363 INFO    HandlerThread:50009 [system_monitor.py:start():194] Starting system monitor
+2024-05-15 08:18:38,363 INFO    SystemMonitor:50009 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-15 08:18:38,363 INFO    HandlerThread:50009 [system_monitor.py:probe():214] Collecting system info
+2024-05-15 08:18:38,364 INFO    SystemMonitor:50009 [interfaces.py:start():188] Started cpu monitoring
+2024-05-15 08:18:38,364 DEBUG   HandlerThread:50009 [system_info.py:probe():150] Probing system
+2024-05-15 08:18:38,364 INFO    SystemMonitor:50009 [interfaces.py:start():188] Started disk monitoring
+2024-05-15 08:18:38,370 INFO    SystemMonitor:50009 [interfaces.py:start():188] Started memory monitoring
+2024-05-15 08:18:38,371 INFO    SystemMonitor:50009 [interfaces.py:start():188] Started network monitoring
+2024-05-15 08:18:38,382 DEBUG   HandlerThread:50009 [system_info.py:_probe_git():135] Probing git
+2024-05-15 08:18:38,435 DEBUG   HandlerThread:50009 [system_info.py:_probe_git():143] Probing git done
+2024-05-15 08:18:38,435 DEBUG   HandlerThread:50009 [system_info.py:probe():198] Probing system done
+2024-05-15 08:18:38,435 DEBUG   HandlerThread:50009 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.12', 'heartbeatAt': '2024-05-15T15:18:38.364849', 'startedAt': '2024-05-15T15:18:37.835761', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/kithminrw/ml-nn-zero2hero.git', 'commit': '1a895d0a856a83c7add93d6dbb38cfff95db1816'}, 'email': 'kithminrw@gmail.com', 'root': '/Users/kithminrw/Documents/GitHub/ml-nn-zero2hero', 'host': 'Kithmins-Air', 'username': 'kithminrw', 'executable': '/Users/kithminrw/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 228.27386474609375, 'used': 213.9154510498047}}, 'memory': {'total': 8.0}}
+2024-05-15 08:18:38,435 INFO    HandlerThread:50009 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-15 08:18:38,435 INFO    HandlerThread:50009 [system_monitor.py:probe():227] Publishing system info
+2024-05-15 08:18:38,435 DEBUG   HandlerThread:50009 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-15 08:18:39,194 INFO    Thread-12 :50009 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/conda-environment.yaml
+2024-05-15 08:18:44,092 DEBUG   HandlerThread:50009 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-15 08:18:44,093 INFO    HandlerThread:50009 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-15 08:18:44,109 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: status_report
+2024-05-15 08:18:44,110 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: keepalive
+2024-05-15 08:18:44,111 DEBUG   SenderThread:50009 [sender.py:send():378] send: files
+2024-05-15 08:18:44,111 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-15 08:18:44,218 INFO    Thread-12 :50009 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/conda-environment.yaml
+2024-05-15 08:18:44,218 INFO    Thread-12 :50009 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/wandb-metadata.json
+2024-05-15 08:18:44,604 INFO    wandb-upload_0:50009 [upload_job.py:push():130] Uploaded file /var/folders/8g/_xjnmg_17fz5fm2s4yf8p7dc0000gn/T/tmp4h2672b9wandb/2zc356a4-wandb-metadata.json
+2024-05-15 08:18:45,083 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-15 08:18:45,083 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: python_packages
+2024-05-15 08:18:45,086 DEBUG   SenderThread:50009 [sender.py:send():378] send: telemetry
+2024-05-15 08:18:45,086 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-15 08:18:45,086 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: stop_status
+2024-05-15 08:18:45,088 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,090 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,091 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,091 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,093 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,093 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,094 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,094 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-15 08:18:45,224 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,234 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,235 INFO    Thread-12 :50009 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/requirements.txt
+2024-05-15 08:18:45,235 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,236 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,236 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,237 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,237 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,237 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,237 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,238 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,238 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,238 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,238 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,238 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,239 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,239 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,239 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,239 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,239 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,239 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,239 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,240 DEBUG   SenderThread:50009 [sender.py:send():378] send: history
+2024-05-15 08:18:45,240 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: summary_record
+2024-05-15 08:18:45,240 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,240 DEBUG   SenderThread:50009 [sender.py:send():378] send: telemetry
+2024-05-15 08:18:45,240 DEBUG   SenderThread:50009 [sender.py:send():378] send: exit
+2024-05-15 08:18:45,240 INFO    SenderThread:50009 [sender.py:send_exit():585] handling exit code: 0
+2024-05-15 08:18:45,240 INFO    SenderThread:50009 [sender.py:send_exit():587] handling runtime: 6
+2024-05-15 08:18:45,240 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,240 INFO    SenderThread:50009 [sender.py:send_exit():593] send defer
+2024-05-15 08:18:45,241 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,241 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-15 08:18:45,241 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,241 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-15 08:18:45,241 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 1
+2024-05-15 08:18:45,241 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,241 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-15 08:18:45,241 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,241 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-15 08:18:45,241 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 2
+2024-05-15 08:18:45,241 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,241 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-15 08:18:45,241 INFO    HandlerThread:50009 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-15 08:18:45,242 DEBUG   SystemMonitor:50009 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-15 08:18:45,242 INFO    HandlerThread:50009 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-15 08:18:45,242 DEBUG   SystemMonitor:50009 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-15 08:18:45,242 INFO    HandlerThread:50009 [interfaces.py:finish():200] Joined disk monitor
+2024-05-15 08:18:45,242 DEBUG   SystemMonitor:50009 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-15 08:18:45,242 INFO    HandlerThread:50009 [interfaces.py:finish():200] Joined memory monitor
+2024-05-15 08:18:45,243 INFO    HandlerThread:50009 [interfaces.py:finish():200] Joined network monitor
+2024-05-15 08:18:45,243 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,243 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-15 08:18:45,243 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 3
+2024-05-15 08:18:45,243 DEBUG   SenderThread:50009 [sender.py:send():378] send: stats
+2024-05-15 08:18:45,243 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,244 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-15 08:18:45,244 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,244 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-15 08:18:45,244 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 4
+2024-05-15 08:18:45,244 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,244 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-15 08:18:45,244 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,244 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-15 08:18:45,244 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 5
+2024-05-15 08:18:45,244 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,244 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-15 08:18:45,245 DEBUG   SenderThread:50009 [sender.py:send():378] send: summary
+2024-05-15 08:18:45,245 INFO    SenderThread:50009 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-15 08:18:45,245 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,245 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-15 08:18:45,245 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 6
+2024-05-15 08:18:45,245 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,245 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-15 08:18:45,245 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,246 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-15 08:18:45,249 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: status_report
+2024-05-15 08:18:45,364 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 7
+2024-05-15 08:18:45,364 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,364 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-15 08:18:45,364 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,364 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-15 08:18:45,364 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 8
+2024-05-15 08:18:45,364 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,364 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-15 08:18:45,365 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,365 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-15 08:18:45,365 INFO    SenderThread:50009 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-15 08:18:45,365 INFO    SenderThread:50009 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-15 08:18:45,365 INFO    SenderThread:50009 [job_builder.py:_get_program_relpath():583] run is notebook based run
+2024-05-15 08:18:45,365 WARNING SenderThread:50009 [job_builder.py:_log_if_verbose():267] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-05-15 08:18:45,365 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 9
+2024-05-15 08:18:45,365 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:45,365 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-15 08:18:45,366 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:45,366 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-15 08:18:45,366 INFO    SenderThread:50009 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-15 08:18:46,094 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-15 08:18:46,236 INFO    SenderThread:50009 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/config.yaml
+2024-05-15 08:18:46,265 INFO    SenderThread:50009 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/wandb-summary.json
+2024-05-15 08:18:46,266 INFO    SenderThread:50009 [dir_watcher.py:finish():388] scan: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files
+2024-05-15 08:18:46,266 INFO    SenderThread:50009 [dir_watcher.py:finish():402] scan save: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/requirements.txt requirements.txt
+2024-05-15 08:18:46,267 INFO    SenderThread:50009 [dir_watcher.py:finish():402] scan save: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/config.yaml config.yaml
+2024-05-15 08:18:46,269 INFO    SenderThread:50009 [dir_watcher.py:finish():402] scan save: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/wandb-summary.json wandb-summary.json
+2024-05-15 08:18:46,271 INFO    SenderThread:50009 [dir_watcher.py:finish():402] scan save: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/conda-environment.yaml conda-environment.yaml
+2024-05-15 08:18:46,275 INFO    SenderThread:50009 [dir_watcher.py:finish():402] scan save: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/wandb-metadata.json wandb-metadata.json
+2024-05-15 08:18:46,276 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 10
+2024-05-15 08:18:46,277 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: poll_exit
+2024-05-15 08:18:46,277 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:46,277 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-15 08:18:46,278 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:46,278 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-15 08:18:46,278 INFO    SenderThread:50009 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-15 08:18:46,560 INFO    wandb-upload_0:50009 [upload_job.py:push():130] Uploaded file /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/requirements.txt
+2024-05-15 08:18:46,624 INFO    wandb-upload_3:50009 [upload_job.py:push():130] Uploaded file /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/conda-environment.yaml
+2024-05-15 08:18:46,641 INFO    wandb-upload_2:50009 [upload_job.py:push():130] Uploaded file /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/wandb-summary.json
+2024-05-15 08:18:46,706 INFO    wandb-upload_1:50009 [upload_job.py:push():130] Uploaded file /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/files/config.yaml
+2024-05-15 08:18:46,906 INFO    Thread-11 :50009 [sender.py:transition_state():613] send defer: 11
+2024-05-15 08:18:46,907 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:46,907 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-15 08:18:46,907 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:46,907 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-15 08:18:46,907 INFO    SenderThread:50009 [file_pusher.py:join():175] waiting for file pusher
+2024-05-15 08:18:46,908 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 12
+2024-05-15 08:18:46,908 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:46,908 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-15 08:18:46,908 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:46,908 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-15 08:18:46,908 INFO    SenderThread:50009 [file_stream.py:finish():601] file stream finish called
+2024-05-15 08:18:47,100 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-15 08:18:47,151 INFO    SenderThread:50009 [file_stream.py:finish():605] file stream finish is done
+2024-05-15 08:18:47,151 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 13
+2024-05-15 08:18:47,151 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: poll_exit
+2024-05-15 08:18:47,151 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:47,153 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-15 08:18:47,154 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:47,154 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-15 08:18:47,154 INFO    SenderThread:50009 [sender.py:transition_state():613] send defer: 14
+2024-05-15 08:18:47,155 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: defer
+2024-05-15 08:18:47,155 INFO    HandlerThread:50009 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-15 08:18:47,155 DEBUG   SenderThread:50009 [sender.py:send():378] send: final
+2024-05-15 08:18:47,156 DEBUG   SenderThread:50009 [sender.py:send():378] send: footer
+2024-05-15 08:18:47,156 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: defer
+2024-05-15 08:18:47,156 INFO    SenderThread:50009 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-15 08:18:47,157 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-15 08:18:47,157 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: poll_exit
+2024-05-15 08:18:47,160 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-15 08:18:47,162 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: server_info
+2024-05-15 08:18:47,162 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-15 08:18:47,162 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-15 08:18:47,162 DEBUG   SenderThread:50009 [sender.py:send_request():405] send_request: server_info
+2024-05-15 08:18:47,230 DEBUG   HandlerThread:50009 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-15 08:18:47,230 INFO    HandlerThread:50009 [handler.py:finish():882] shutting down handler
+2024-05-15 08:18:48,167 INFO    WriterThread:50009 [datastore.py:close():296] close: /Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_081837-68o6i8ud/run-68o6i8ud.wandb
+2024-05-15 08:18:48,232 INFO    SenderThread:50009 [sender.py:finish():1545] shutting down sender
+2024-05-15 08:18:48,232 INFO    SenderThread:50009 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-15 08:18:48,232 INFO    SenderThread:50009 [file_pusher.py:join():175] waiting for file pusher
