@@ -8,7 +8,10 @@ parts:
     - file: notebooks/00/00.md
       sections:
       - file: notebooks/00/NB_0_1.ipynb
-      - file: notebooks/00/NB_0_2.ipynb
+      - file: notebooks/00/NB_0_2.ipynb 
+      - file: notebooks/00/NB_0_3.ipynb 
+      - url: https://github.com/garrettj403/SciencePlots/wiki/Gallery
+        title: github:SciencePlots  
 
   - caption: Machine Learning
     chapters:
