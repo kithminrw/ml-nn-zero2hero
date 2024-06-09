@@ -1,6 +1,6 @@
 # {ml-nn-zero2hero}
 
-:::{admonition} Disclaimer
+:::{admonition} Disclaimer - This project is work-in-progress!
 :class: important
  All the rights of these codes and resources belong to their original authors. I am compiling a collection for self-learning purposes and to build tools by myself using the knowledge.
 :::
@@ -16,7 +16,7 @@ Other resources include (but not limited to),
 - [Hands-On Mathematical Optimization with Python](https://github.com/mobook/MO-book) by The MO Book Group
 
 ```{note} The goals of this collection of notebooks are to:
-* Grasp the foundations for hands-on machine learning and deep learning in an elegant approach
+* Grasp the foundations for hands-on machine learning and deep learning in an elegant approach through self-studying from the fundamentals
 * Have fun while learning and compiling notes and eventually end in a culmination of work
 * Help readers to easily navigate the learning experience with a good compilation on notes on the subject
 * Demonstrate the use of SOTA tools and concepts for documenting beautiful publication-quality work
@@ -24,7 +24,7 @@ Other resources include (but not limited to),
 
 :::{admonition} Personal Goal
 :class: tip 
-I have hopes of getting a paper outlining my work submitted for [NuerIPS 2025](https://nips.cc/), so it is my personal motivation for doing this as well :)
+I have hopes of getting a paper outlining my work submitted for [NuerIPS 2025](https://nips.cc/), so it is my personal motivation for doing this as well :) I am inspired by this work on [Synthetic Biosignal Generation](https://github.com/theekshanadis/biosignalGANs).
 :::
 
 ### Pre-requisites

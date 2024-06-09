@@ -181,6 +181,8 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../00/00.html">Section 00 - Things Before Diving In</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../00/NB_0_1.html">Section 0.1 - Mathematics for Machine Learning</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../00/NB_0_2.html">Section 0.2 - Scientific Python with NumPy, matplotlib and pandas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00/NB_0_3.html">Section 0.3 - Science Plots</a></li>
+<li class="toctree-l2"><a class="reference external" href="https://github.com/garrettj403/SciencePlots/wiki/Gallery">github:SciencePlots</a></li>
 </ul>
 </li>
 </ul>
@@ -213,6 +215,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference external" href="https://github.com/ageron/handson-ml3">github:handson-ml</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/NVDLI/LDL/">github:learning-deep-learning</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Neural Networks</span></p>
 <ul class="nav bd-sidenav">
@@ -564,6 +567,52 @@ document.write(`
 </pre></div>
 </div>
 </div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">wandb</span>
+<span class="kn">import</span> <span class="nn">random</span>
+
+<span class="c1"># start a new wandb run to track this script</span>
+<span class="n">wandb</span><span class="o">.</span><span class="n">init</span><span class="p">(</span>
+    <span class="c1"># set the wandb project where this run will be logged</span>
+    <span class="n">project</span><span class="o">=</span><span class="s2">&quot;test-project&quot;</span><span class="p">,</span>
+
+    <span class="c1"># track hyperparameters and run metadata</span>
+    <span class="n">config</span><span class="o">=</span><span class="p">{</span>
+    <span class="s2">&quot;learning_rate&quot;</span><span class="p">:</span> <span class="mf">0.02</span><span class="p">,</span>
+    <span class="s2">&quot;architecture&quot;</span><span class="p">:</span> <span class="s2">&quot;CNN&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;dataset&quot;</span><span class="p">:</span> <span class="s2">&quot;CIFAR-100&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;epochs&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+
+<span class="c1"># simulate training</span>
+<span class="n">epochs</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">offset</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">/</span> <span class="mi">5</span>
+<span class="k">for</span> <span class="n">epoch</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">epochs</span><span class="p">):</span>
+    <span class="n">acc</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">-</span> <span class="mi">2</span> <span class="o">**</span> <span class="o">-</span><span class="n">epoch</span> <span class="o">-</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">/</span> <span class="n">epoch</span> <span class="o">-</span> <span class="n">offset</span>
+    <span class="n">loss</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">**</span> <span class="o">-</span><span class="n">epoch</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">()</span> <span class="o">/</span> <span class="n">epoch</span> <span class="o">+</span> <span class="n">offset</span>
+
+    <span class="c1"># log metrics to wandb</span>
+    <span class="n">wandb</span><span class="o">.</span><span class="n">log</span><span class="p">({</span><span class="s2">&quot;acc&quot;</span><span class="p">:</span> <span class="n">acc</span><span class="p">,</span> <span class="s2">&quot;loss&quot;</span><span class="p">:</span> <span class="n">loss</span><span class="p">})</span>
+
+<span class="c1"># [optional] finish the wandb run, necessary in notebooks</span>
+<span class="n">wandb</span><span class="o">.</span><span class="n">finish</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Failed to detect the name of this notebook, you can set it manually with the WANDB_NOTEBOOK_NAME environment variable to enable code saving.
+<span class=" -Color -Color-Bold -Color-Bold-Blue">wandb</span>: Currently logged in as: <span class=" -Color -Color-Yellow">kithminrw</span> (<span class=" -Color -Color-Yellow">kithminrw-ai</span>). Use <span class=" -Color -Color-Bold">`wandb login --relogin`</span> to force relogin
+</pre></div>
+</div>
+<div class="output text_html">Tracking run with wandb version 0.17.0</div><div class="output text_html">Run data is saved locally in <code>/Users/kithminrw/Documents/GitHub/ml-nn-zero2hero/notebooks/01/wandb/run-20240515_090928-2pcb5zzn</code></div><div class="output text_html">Syncing run <strong><a href='https://wandb.ai/kithminrw-ai/test-project/runs/2pcb5zzn' target="_blank">leafy-valley-3</a></strong> to <a href='https://wandb.ai/kithminrw-ai/test-project' target="_blank">Weights & Biases</a> (<a href='https://wandb.me/run' target="_blank">docs</a>)<br/></div><div class="output text_html"> View project at <a href='https://wandb.ai/kithminrw-ai/test-project' target="_blank">https://wandb.ai/kithminrw-ai/test-project</a></div><div class="output text_html"> View run at <a href='https://wandb.ai/kithminrw-ai/test-project/runs/2pcb5zzn' target="_blank">https://wandb.ai/kithminrw-ai/test-project/runs/2pcb5zzn</a></div><script type="application/vnd.jupyter.widget-view+json">{"model_id": "3c2b2fe04528445f99a55852082db0bd", "version_major": 2, "version_minor": 0}</script><div class="output text_html"><style>
+    table.wandb td:nth-child(1) { padding: 0 10px; text-align: left ; width: auto;} td:nth-child(2) {text-align: left ; width: 100%}
+    .wandb-row { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; width: 100% }
+    .wandb-col { display: flex; flex-direction: column; flex-basis: 100%; flex: 1; padding: 10px; }
+    </style>
+<div class="wandb-row"><div class="wandb-col"><h3>Run history:</h3><br/><table class="wandb"><tr><td>acc</td><td>▁▄▇██▇▇█</td></tr><tr><td>loss</td><td>█▇▅▁▃▂▁▁</td></tr></table><br/></div><div class="wandb-col"><h3>Run summary:</h3><br/><table class="wandb"><tr><td>acc</td><td>0.81072</td></tr><tr><td>loss</td><td>0.1592</td></tr></table><br/></div></div></div><div class="output text_html"> View run <strong style="color:#cdcd00">leafy-valley-3</strong> at: <a href='https://wandb.ai/kithminrw-ai/test-project/runs/2pcb5zzn' target="_blank">https://wandb.ai/kithminrw-ai/test-project/runs/2pcb5zzn</a><br/> View project at: <a href='https://wandb.ai/kithminrw-ai/test-project' target="_blank">https://wandb.ai/kithminrw-ai/test-project</a><br/>Synced 5 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)</div><div class="output text_html">Find logs at: <code>./wandb/run-20240515_090928-2pcb5zzn/logs</code></div></div>
 </div>
 </section>
 
