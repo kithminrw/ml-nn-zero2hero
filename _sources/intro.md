@@ -24,7 +24,7 @@ Other resources include (but not limited to),
 
 :::{admonition} Personal Goal
 :class: tip 
-I have hopes of getting a paper outlining my work submitted for [NuerIPS 2025](https://nips.cc/), so it is my personal motivation for doing this as well :) I am inspired by this work on [Synthetic Biosignal Generation](https://github.com/theekshanadis/biosignalGANs).
+I have hopes of getting a paper outlining my work submitted for [NuerIPS 2025](https://nips.cc/), so it is my personal motivation for doing this as well :) I am inspired by this work on [Synthetic Biosignal Generation](https://github.com/theekshanadis/biosignalGANs) and [Single-lead to Multi-lead ECG Reconstruction](https://github.com/knu-plml/ecg-recon). The ECG modelling work done by [Andrew Miller](https://andymiller.github.io/) is also pretty cool.
 :::
 
 ### Pre-requisites
